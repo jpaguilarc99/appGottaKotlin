@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GottaFormApplication</string>
+    <string name="name_company">Gotta Ingeniería S.A.S</string>
+    <string name="def_funias">Formulario Único Nacional Para Inventario De Puntos De Agua Subterránea</string>
+    <string name="name_funias">FUNIAS</string>
+
+    <string name="content_table">Tabla de contenido</string>
+    <string name="content_1">1. Información general</string>
+    <string name="content_2">2. Fuentes de información</string>
+    <string name="content_3">3. Información del punto</string>
+    <string name="content_4">4. Características topográficas, climáticas, geomorfológicas y geológicas</string>
+    <string name="content_5">5. Características de los pozos y alijibes</string>
+    <string name="content_6">6. Construcciones adicionales de la captación</string>
+    <string name="content_7">7. Características de los manantiales</string>
+    <string name="content_8">8. Parámetros físico-químicos del agua</string>
+    <string name="content_9">9. Usos del agua</string>
+    <string name="content_10">10. Diagnóstico sanitario de la captación</string>
+    <string name="content_11">11. Datos gráficos</string>
+    <string name="content_12">12. Observaciones generales</string>
+    <string name="content_btn">Llenar formulario</string>
+</resources>
