@@ -6,33 +6,36 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 
-class OneContentActivity : AppCompatActivity() {
+class ThreeContentActivity : AppCompatActivity() {
 
-    private lateinit var btnBack: Button
-    private lateinit var btnNext: Button
+    private lateinit var btnBackThree:Button
+    private lateinit var btnNextThree: Button
+    private lateinit var etDateTwo: EditText
     private lateinit var etDate: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_one_content)
+        setContentView(R.layout.activity_three_content)
         initComponents()
         initListeners()
     }
 
     private fun initComponents() {
-        btnBack = findViewById(R.id.btnBack)
-        btnNext = findViewById(R.id.btnNext)
+        btnBackThree = findViewById(R.id.btnBackThree)
+        btnNextThree = findViewById(R.id.btnNextThree)
         etDate = findViewById(R.id.etDate)
+        etDateTwo = findViewById(R.id.etDateTwo)
     }
 
     private fun initListeners() {
-        btnBack.setOnClickListener { onBackPressed() }
+        btnBackThree.setOnClickListener { onBackPressed() }
         etDate.setOnClickListener { showDatePickerDialog() }
-        btnNext.setOnClickListener { navigateToTwo() }
+        etDateTwo.setOnClickListener { showDatePickerDialog() }
+        btnNextThree.setOnClickListener { navigateToThreeSec() }
     }
 
-    private fun navigateToTwo() {
-        val intent = Intent(this, TwoContentActivity::class.java)
+    private fun navigateToThreeSec() {
+        val intent = Intent(this, ThreeContentSecActivity::class.java)
         startActivity(intent)
     }
 
