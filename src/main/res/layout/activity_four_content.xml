@@ -4,6 +4,282 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".FourContentActivity">
+
+    <TextView
+        android:id="@+id/titleFourForm"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/content_4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTopografia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="- Topografía:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleFourForm"/>
+
+    <RadioGroup
+        android:id="@+id/rgTopografia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTopografia">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Depresión" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Planicie" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Altiplanicie" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Piedemonte" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Colina" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Otro" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="20dp"
+            android:hint="¿Otro-Cuál?"
+            android:gravity="center"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvGeoforma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="- Geoforma:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgTopografia"/>
+
+    <RadioGroup
+        android:id="@+id/rgGeoforma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvGeoforma">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Abanico aluvial" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Cauce aluvial" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Llanura aluvial" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Terraza" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Duna" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Dolina" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Playa" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Otro" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="20dp"
+            android:hint="¿Otro-Cuál?"
+            android:gravity="center"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvCondicionClimatica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="- Condición climática:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgGeoforma"/>
+
+    <RadioGroup
+        android:id="@+id/rgCondicionClimatica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCondicionClimatica">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Periodo húmedo" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="Periodo seco" />
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgCondicionClimatica">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Litología:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etAlign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="62dp"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Unidad Geológica:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btnBackFour"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="atrás"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNextFour"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="listo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
