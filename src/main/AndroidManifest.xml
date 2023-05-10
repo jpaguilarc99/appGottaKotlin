@@ -13,6 +13,42 @@
         android:theme="@style/Theme.GottaFormApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ElevenTwelveContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TenContentSecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TenContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NineContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EightContentSecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EightContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SevenContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiveContentFifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiveContentFourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiveContentTirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiveContentSecActivity"
+            android:exported="false" />
+        <activity
             android:name=".FiveContentActivity"
             android:exported="false" />
         <activity

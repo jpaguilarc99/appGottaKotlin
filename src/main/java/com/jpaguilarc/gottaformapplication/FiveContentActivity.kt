@@ -27,12 +27,12 @@ class FiveContentActivity : AppCompatActivity() {
 
     private fun initListeners() {
         btnBackFive.setOnClickListener { onBackPressed() }
-        btnNextFive.setOnClickListener { navigateToSix() }
+        btnNextFive.setOnClickListener { navigateToFiveSec() }
         etDate.setOnClickListener { showDatePickerDialog() }
     }
 
-    private fun navigateToSix() {
-        val intent = Intent(this, FiveContentActivity::class.java)
+    private fun navigateToFiveSec() {
+        val intent = Intent(this, FiveContentSecActivity::class.java)
         startActivity(intent)
     }
 

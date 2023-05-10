@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SevenContentActivity">
+
+    <TextView
+        android:id="@+id/titleSevenForm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/content_7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleSevenForm">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tipo de manantial:"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Goteo" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Filtración" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Otro" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"
+                android:hint="¿Otro-Cuál?"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Permanencia:"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Perenne" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Estacional" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Intermitente" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Sin información" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Medio de surgencia:"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Rasgo kárstico" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Diaclasas o fracturas" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Contacto" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Otro" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"
+                android:hint="¿Otro-Cuál?"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btnBackSeven"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="atrás"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNextSeven"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="listo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

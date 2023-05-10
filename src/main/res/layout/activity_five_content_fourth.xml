@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".FiveContentFourthActivity">
+
+    <TextView
+        android:id="@+id/titleFiveFourthForm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/content_5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleFiveFourthForm">
+
+        <TextView
+            android:id="@+id/tvHidraulicas"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="- Características hidráulicas:"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Régimen de bombeo:"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="29dp"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nivel medido del agua:"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiempo de bombeo:"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T de apagado de bomba:"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Método de medida del nivel del agua:"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Sonda eléctrica" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Cinta métrica" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Estimado" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Trasductor de presión-driver" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Método de medida del caudal:"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Volumétrico" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Vertedero" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Micromolinete" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Estimado" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Orificio" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Manómetro" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Macromedidor" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="Micromedidor" />
+
+        </RadioGroup>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btnBackFiveFourth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="atrás"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNextFiveFourth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="listo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
