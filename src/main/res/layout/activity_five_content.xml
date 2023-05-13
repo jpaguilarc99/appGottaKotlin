@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#84B6F4"
     android:orientation="vertical"
     android:padding="15dp"
     tools:context=".FiveContentActivity">
@@ -25,8 +25,8 @@
         android:id="@+id/tvDatosConstruccion"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="-Datos de la construcción:"
         android:layout_marginTop="8dp"
+        android:text="-Datos de la construcción:"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,8 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Fecha:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/etDate"
@@ -83,8 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Perforador:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -107,8 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Diámetro exterior:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -132,8 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Diámetro interior:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -157,8 +153,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Profundidad:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -182,8 +177,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Largo:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -207,8 +201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ancho:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -232,8 +225,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="¿Está colapsado?"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -256,8 +248,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="¿Está colmatado?"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -309,13 +300,14 @@
                 android:scaleX="1"
                 android:scaleY="1"
                 android:text="Otro" />
+
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
                 android:layout_marginStart="20dp"
-                android:hint="¿Otro-Cuál?"
+                android:layout_marginTop="0dp"
                 android:gravity="center"
+                android:hint="¿Otro-Cuál?"
                 android:textSize="12sp" />
         </RadioGroup>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#84B6F4"
     android:padding="15dp"
     tools:context=".ThreeContentSecActivity">
 
@@ -24,12 +24,12 @@
         android:id="@+id/tvLocalizacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Localización del punto:"
         android:layout_marginTop="8dp"
+        android:text="- Localización del punto:"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titleThreeSecForm"/>
+        app:layout_constraintTop_toBottomOf="@id/titleThreeSecForm" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/layoutLocalizacion"
@@ -52,8 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Departamento:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -73,13 +72,12 @@
             app:layout_constraintStart_toStartOf="parent">
 
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Municipio:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -102,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:text="Vereda:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -126,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:text="Nombre del lugar:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -150,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:text="Cuenca Hidrográfica:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -168,19 +166,19 @@
         android:id="@+id/tvCoordenadas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Coordenadas:"
         android:layout_marginTop="8dp"
+        android:text="- Coordenadas:"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layoutLocalizacion"/>
+        app:layout_constraintTop_toBottomOf="@id/layoutLocalizacion" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvCoordenadas">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -196,7 +194,7 @@
                 android:layout_height="wrap_content"
                 android:text="Elipsoide de referencia:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -220,7 +218,7 @@
                 android:layout_height="wrap_content"
                 android:text="Longitud:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -244,7 +242,7 @@
                 android:layout_height="wrap_content"
                 android:text="Latitud:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -268,7 +266,7 @@
                 android:layout_height="wrap_content"
                 android:text="Origen de coordenadas:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -292,7 +290,7 @@
                 android:layout_height="wrap_content"
                 android:text="Y (N-S):"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -316,7 +314,7 @@
                 android:layout_height="wrap_content"
                 android:text="X (E-W):"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"

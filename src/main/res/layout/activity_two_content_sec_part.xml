@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#84B6F4"
     android:padding="15dp"
     tools:context=".TwoContentSecPartActivity">
 
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="Razón social:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:text="NIT:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:text="Representante legal:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:text="Municipio:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -150,7 +150,7 @@
                 android:layout_height="wrap_content"
                 android:text="Dirección:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -174,7 +174,7 @@
                 android:layout_height="wrap_content"
                 android:text="Teléfono-Celular:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -198,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:text="Correo electrónico:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"

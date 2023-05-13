@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#84B6F4"
     android:padding="10dp"
     tools:context=".TwoContentActivity">
 
@@ -68,12 +68,12 @@
         android:id="@+id/tvInformacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Información suministrada por:"
         android:layout_marginTop="5dp"
+        android:text="- Información suministrada por:"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/rgFuentesInformacion"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgFuentesInformacion" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/infoSuministrada"
@@ -98,8 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nombre:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -123,8 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Municipio:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -148,8 +146,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dirección:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -173,8 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Teléfono-Celular:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -198,8 +194,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Correo electrónico:"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="15sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -216,12 +211,12 @@
         android:id="@+id/tvPersonaNatural"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Propietario persona natural:"
         android:layout_marginTop="5dp"
+        android:text="- Propietario persona natural:"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/infoSuministrada"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoSuministrada" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="0dp"
@@ -246,7 +241,7 @@
                 android:layout_height="wrap_content"
                 android:text="Nombre:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -271,7 +266,7 @@
                 android:layout_height="wrap_content"
                 android:text="Municipio:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                />
 
             <EditText
                 android:layout_width="match_parent"
@@ -296,7 +291,7 @@
                 android:layout_height="wrap_content"
                 android:text="Dirección:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -321,7 +316,7 @@
                 android:layout_height="wrap_content"
                 android:text="Teléfono-Celular:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -346,7 +341,7 @@
                 android:layout_height="wrap_content"
                 android:text="Correo electrónico:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"

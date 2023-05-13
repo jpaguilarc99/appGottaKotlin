@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#84B6F4"
     android:padding="15dp"
     tools:context=".ThreeContentActivity">
 
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="¿Está legalizado?"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:text="Resolución N°"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:text="Fecha expedición:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:id="@+id/etDate"
@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:text="Vencimiento:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:id="@+id/etDateTwo"
@@ -184,7 +184,7 @@
                 android:layout_height="wrap_content"
                 android:text="Caudal concesionado:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -208,7 +208,7 @@
                 android:layout_height="wrap_content"
                 android:text="N° Expediente:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -254,7 +254,7 @@
                 android:layout_height="wrap_content"
                 android:text="Plancha:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -278,7 +278,7 @@
                 android:layout_height="wrap_content"
                 android:text="Escala:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
@@ -302,7 +302,7 @@
                 android:layout_height="wrap_content"
                 android:text="Otra identificación:"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                 />
 
             <EditText
                 android:layout_width="match_parent"
